@@ -1,9 +1,9 @@
 {
   "version": "v1.0.0",
   "releaseDate": "2026-09-24",
-  "changelog": "1. 惊鸿财务管理系统 v1.0.0 正式发布\n2. 完整工业级全自动定时备份计划与灾备恢复引擎\n3. 全局页面去若依化彻底脱敏，纯净财务界面\n4. 支持一体化单机部署与分布式数据库分离部署\n5. 集成专用 Windows 服务管理器与国内多节点在线更新通道",
+  "changelog": "1. 柚柚财务系统 v1.0.0 正式发布\n2. 完整工业级全自动定时备份计划与灾备恢复引擎\n3. 全局页面去若依化彻底脱敏，纯净财务界面\n4. 支持一体化单机部署与分布式数据库分离部署\n5. 集成专用 Windows 服务管理器与国内多节点在线更新通道",
   "downloadUrl": "https://github.com/youzi-x/jh-finance-releases/releases/download/v1.0.0/patch_v1.0.0.zip",
-  "installerUrl": "https://github.com/youzi-x/jh-finance-releases/releases/download/v1.0.0/JingHongFinance_Setup_v1.0.0.exe",
-  "md5": "78460730f529d64a0238ed51c642b82f",
-  "installerMd5": "67017eb6781310c8c597d8cfbb9148db"
+  "installerUrl": "https://github.com/youzi-x/jh-finance-releases/releases/download/v1.0.0/YouYouFinance_Setup_v1.0.0.exe",
+  "md5": "3049597f630143336a45cf5bc93a4194",
+  "installerMd5": "0433fb98b0caa78773a65e479a08c2e1"
 }

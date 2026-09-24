@@ -1,4 +1,4 @@
-# 惊鸿财务管理系统 · 官方安装包发布与在线升级通道
+# 柚柚财务系统 · 官方安装包发布与在线升级通道
 
 <p align="center">
   <img src="https://img.shields.io/badge/version-v1.0.0-blue.svg?style=flat-square" alt="Version">
@@ -13,7 +13,7 @@
 
 ## 📖 项目简介与系统定位
 
-**惊鸿财务管理系统**是一款面向现代中小企业及集团分支机构的**企业级全功能多账套财务管理软件**，严格遵循财政部《企业会计准则》核心业务规范与现代化财务交互体验。
+**柚柚财务系统**是一款面向现代中小企业及集团分支机构的**企业级全功能多账套财务管理软件**，严格遵循财政部《企业会计准则》核心业务规范与现代化财务交互体验。
 
 系统采用现代化 **Spring Boot 3 + Vue 3** 技术栈，通过嵌入式架构将纯净前端单页应用（SPA）与后端微核心封装为**单一自包含应用**。配套提供专用 **Windows 桌面服务管理器**与 **Windows 一键部署安装包**，无需客户自行配置复杂且繁琐的 Java/Node.js/Nginx/MySQL 环境，实现“**下载即装、双击即启、开箱即用**”。
 
@@ -45,16 +45,16 @@
 
 针对国内直连 GitHub 速度不稳定或无法访问的情况，官方已配置**国内多节点高速加速镜像**，可直接点击下方链接下载：
 
-### 📥 完整一键安装包 (`JingHongFinance_Setup_v1.0.0.exe`)
+### 📥 完整一键安装包 (`YouYouFinance_Setup_v1.0.0.exe`)
 
 | 下载线路 | 节点类型 | 下载直链 | 推荐说明 |
 | :--- | :---: | :--- | :--- |
-| 🚀 **国内高速线路 1** | **ghproxy** | [点击高速下载 (首选镜像)](https://ghproxy.net/https://github.com/youzi-x/jh-finance-releases/releases/download/v1.0.0/JingHongFinance_Setup_v1.0.0.exe) | ⭐⭐⭐⭐⭐ **国内网络首选，高带宽** |
-| ⚡ **国内高速线路 2** | **gh-proxy** | [点击高速下载 (备用镜像)](https://gh-proxy.com/https://github.com/youzi-x/jh-finance-releases/releases/download/v1.0.0/JingHongFinance_Setup_v1.0.0.exe) | ⭐⭐⭐⭐⭐ **全国电信/联通/移动适配良好** |
-| 🌐 **GitHub 官方源** | **GitHub Releases** | [官方直连下载 (海外用户)](https://github.com/youzi-x/jh-finance-releases/releases/download/v1.0.0/JingHongFinance_Setup_v1.0.0.exe) | ⭐⭐⭐ **海外或具备外网加速环境使用** |
+| 🚀 **国内高速线路 1** | **ghproxy** | [点击高速下载 (首选镜像)](https://ghproxy.net/https://github.com/youzi-x/jh-finance-releases/releases/download/v1.0.0/YouYouFinance_Setup_v1.0.0.exe) | ⭐⭐⭐⭐⭐ **国内网络首选，高带宽** |
+| ⚡ **国内高速线路 2** | **gh-proxy** | [点击高速下载 (备用镜像)](https://gh-proxy.com/https://github.com/youzi-x/jh-finance-releases/releases/download/v1.0.0/YouYouFinance_Setup_v1.0.0.exe) | ⭐⭐⭐⭐⭐ **全国电信/联通/移动适配良好** |
+| 🌐 **GitHub 官方源** | **GitHub Releases** | [官方直连下载 (海外用户)](https://github.com/youzi-x/jh-finance-releases/releases/download/v1.0.0/YouYouFinance_Setup_v1.0.0.exe) | ⭐⭐⭐ **海外或具备外网加速环境使用** |
 
-- **文件大小**: 约 144.6 MB
-- **文件 MD5**: `67017eb6781310c8c597d8cfbb9148db`
+- **文件大小**: 约 147.1 MB
+- **文件 MD5**: `0433fb98b0caa78773a65e479a08c2e1`
 
 ### 📦 增量在线热更新补丁包 (`patch_v1.0.0.zip`)
 
@@ -62,8 +62,8 @@
 
 - [国内加速下载补丁包 (ghproxy 节点)](https://ghproxy.net/https://github.com/youzi-x/jh-finance-releases/releases/download/v1.0.0/patch_v1.0.0.zip)
 - [国内加速下载补丁包 (gh-proxy 节点)](https://gh-proxy.com/https://github.com/youzi-x/jh-finance-releases/releases/download/v1.0.0/patch_v1.0.0.zip)
-- **文件大小**: 约 95.6 MB
-- **文件 MD5**: `78460730f529d64a0238ed51c642b82f`
+- **文件大小**: 约 98.0 MB
+- **文件 MD5**: `3049597f630143336a45cf5bc93a4194`
 
 ---
 
@@ -81,31 +81,31 @@
 ## 🛠️ 图文级安装部署教程
 
 ### 第一步：下载与运行安装程序
-1. 从上述下载中心选择【国内高速线路 1】下载 `JingHongFinance_Setup_v1.0.0.exe`；
+1. 从上述下载中心选择【国内高速线路 1】下载 `YouYouFinance_Setup_v1.0.0.exe`；
 2. 建议鼠标右键点击安装程序，选择 **【以管理员身份运行】**，以确保服务管理向导拥有创建系统服务与桌面快捷方式的权限。
 
 ### 第二步：安装向导配置
 1. **欢迎与最终用户许可协议**: 详细阅读软件使用条款，点击“下一步”；
 2. **选择安装目标路径**:
-   - 默认路径通常为 `C:\JingHongFinance` 或 `D:\JingHongFinance`；
+   - 默认路径通常为 `C:\YouYouFinance` 或 `D:\YouYouFinance`；
    - ⚠️ **重要提示**: 推荐安装在空间充裕的磁盘分区，**路径中请勿包含中文、特殊符号或非法字符**，以免部分底层数据库服务产生兼容性异常；
 3. **确认组件与开始安装**:
    - 点击“一键安装”按钮；
    - 安装向导将自动解压嵌入式运行时、便携数据库、基础账套初始元数据、服务管理器及主应用核心包；
    - 自动生成桌面快捷方式：
-     - 📌 **【惊鸿财务系统服务管理器】**（运维与控制中心）
-     - 📌 **【惊鸿财务管理系统】**（浏览器快速访问入口）
+     - 📌 **【柚柚财务系统服务管理器】**（运维与控制中心）
+     - 📌 **【柚柚财务系统】**（浏览器快速访问入口）
 4. **安装完成**: 勾选“立即启动服务管理器”，点击“完成”。
 
 ---
 
 ## 🖥️ 服务管理器使用说明手册
 
-安装完成后，双击桌面的 **【惊鸿财务系统服务管理器】**（或进入安装根目录运行 `ServiceManager.exe`），即可进入图形化运维控制台：
+安装完成后，双击桌面的 **【柚柚财务系统服务管理器】**（或进入安装根目录运行 `ServiceManager.exe`），即可进入图形化运维控制台：
 
 ```
 +-------------------------------------------------------------------------+
-|                  惊鸿财务管理系统 · 服务管理器 v1.0.0                   |
+|                  柚柚财务系统 · 服务管理器 v1.0.0                   |
 +-------------------------------------------------------------------------+
 | [服务管理]  |  [端口管理]  |  [数据库配置]  |  [在线更新]  |  [关于系统] |
 +-------------------------------------------------------------------------+
@@ -193,5 +193,5 @@ Windows 10/11 系统中，某些本地服务（例如 IIS、World Wide Web Publi
 
 ## 📄 开源与商业授权声明
 
-- 本公开仓库仅用于惊鸿财务管理系统的**客户端安装包发布、说明文档分发与在线升级版本清单托管**。
+- 本公开仓库仅用于柚柚财务系统的**客户端安装包发布、说明文档分发与在线升级版本清单托管**。
 - 本项目后端全量源码、前端 Vue 3 工程源码及专属桌面服务管理器源码托管于 GitHub 私有源码仓库，享有完整知识产权，未经授权禁止逆向或商用转售。
