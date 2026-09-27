@@ -1,9 +1,9 @@
 {
-  "version": "v1.0.0",
-  "releaseDate": "2026-09-24",
-  "changelog": "1. 柚柚财务系统 v1.0.0 正式发布\n2. 完整工业级全自动定时备份计划与灾备恢复引擎\n3. 纯净专业财务界面，全面自主品牌深度定制\n4. 支持一体化单机部署与分布式数据库分离部署\n5. 集成专用 Windows 服务管理器与国内多节点在线更新通道",
-  "downloadUrl": "https://github.com/youzi-x/jh-finance-releases/releases/download/v1.0.0/patch_v1.0.0.zip",
-  "installerUrl": "https://github.com/youzi-x/jh-finance-releases/releases/download/v1.0.0/YouYouFinance_Setup_v1.0.0.exe",
-  "md5": "3049597f630143336a45cf5bc93a4194",
-  "installerMd5": "0433fb98b0caa78773a65e479a08c2e1"
+  "version": "v1.1.0",
+  "releaseDate": "2026-09-27",
+  "changelog": "1. 【凭证记账与反记账中心】全新向导式批量记账，具备借贷试算平衡强校验、内控门禁诊断、赤字预警及带安全口令的精准回退反记账机制\n2. 【财务参数强管控引擎】落地凭证必须审核后记账、出纳签字强门禁、资金及往来赤字拦截等9大账套级内控财务参数配置\n3. 【三栏明细账全面规范】规范明细账为标准'三栏明细账'（借/贷/余额三栏凭证流水），并与总分类账（期间汇总）清晰划分\n4. 【账簿动态包含未记账】科目余额表、明细账、总账、辅助核算账默认统计POSTED已记账凭证，支持一键勾选'包含未记账凭证'动态重算\n5. 【科目余额重算自愈引擎】支持一键式历史科目余额重建与对账自愈，彻底杜绝账实不符与辅助账错账\n6. 【通用自动转账中心】维护通用自动转账规则，支持按期间实时测算生成记账凭证与安全一键撤销\n7. 【应收账龄与经营决策】上线多区间应收账龄分析引擎与企业经营洞察决策图表看板\n8. 【出纳签字与凭证套打】出纳签字强控流程闭环，支持凭证专业激光套打与A4三联打印格式",
+  "downloadUrl": "https://github.com/youzi-x/jh-finance-releases/releases/download/v1.1.0/patch_v1.1.0.zip",
+  "installerUrl": "https://github.com/youzi-x/jh-finance-releases/releases/download/v1.1.0/YouYouFinance_Setup_v1.1.0.exe",
+  "md5": "561b2fbee5f0fe5a8081124956b04769",
+  "installerMd5": "03615c3663f8822dde77ddc0537e9844"
 }
